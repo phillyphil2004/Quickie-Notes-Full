@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../Quickie Notes For iPad/Quickie Notes For iPad.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Quickie Notes.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -2,7 +2,7 @@
 //  DetailViewController.swift
 //  Quickie Notes
 //
-//  Created by Philip Parkinson on 2/14/15.
+//  Created by Phil Parkinson on 12/01/2015.
 //  Copyright (c) 2015 Young. All rights reserved.
 //
 
@@ -10,29 +10,25 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
-
-    var detailItem: AnyObject? {
-        didSet {
-            // Update the view.
-            self.configureView()
-        }
-    }
-
-    func configureView() {
-        // Update the user interface for the detail item.
-        if let detail: AnyObject = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
-            }
-        }
-    }
+    @IBOutlet weak var tView: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.configureView()
+        tView.text = allNotes[currentNote].note
+        tView.becomeFirstResponder()
+        
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        if tView.text == "" {
+            allNotes.removeAtIndex(currentNote)
+        } else {
+            allNotes[currentNote].note = tView.text
+        }
+        Note.saveNotes()
+        noteTable?.reloadData()
     }
 
     override func didReceiveMemoryWarning() {

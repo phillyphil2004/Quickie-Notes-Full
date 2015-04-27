@@ -6,7 +6,37 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		9FE8A62A1ACDE2EC000E7927 /* Quickie NotesT */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9FE8A62D1ACDE2EC000E7927 /* Build configuration list for PBXAggregateTarget "Quickie NotesT" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "Quickie NotesT";
+			productName = "Quickie NotesT";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		9F0C85EB1AD72FB9007F9063 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C85EA1AD72FB9007F9063 /* ShareViewController.swift */; };
+		9F0C85ED1AD72FB9007F9063 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0C85EC1AD72FB9007F9063 /* MainInterface.storyboard */; };
+		9F5BEA111ACCA8E7003C1586 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BEA091ACCA8E7003C1586 /* Icon-60.png */; };
+		9F5BEA121ACCA8E7003C1586 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BEA0A1ACCA8E7003C1586 /* Icon-72.png */; };
+		9F5BEA131ACCA8E7003C1586 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BEA0B1ACCA8E7003C1586 /* Icon-72@2x.png */; };
+		9F5BEA141ACCA8E7003C1586 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BEA0C1ACCA8E7003C1586 /* Icon-Small-50.png */; };
+		9F5BEA151ACCA8E7003C1586 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BEA0D1ACCA8E7003C1586 /* Icon-Small-50@2x.png */; };
+		9F5BEA161ACCA8E7003C1586 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BEA0E1ACCA8E7003C1586 /* Icon.png */; };
+		9F5BEA171ACCA8E7003C1586 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BEA0F1ACCA8E7003C1586 /* Icon@2x.png */; };
+		9F5BEA181ACCA8E7003C1586 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BEA101ACCA8E7003C1586 /* iTunesArtwork@2x.png */; };
+		9F5BEA1A1ACCA969003C1586 /* storeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BEA191ACCA969003C1586 /* storeicon.png */; };
+		9F9F51051AD73178000F034E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F51041AD73178000F034E /* InterfaceController.swift */; };
+		9F9F51071AD73178000F034E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F51061AD73178000F034E /* NotificationController.swift */; };
+		9F9F51091AD73178000F034E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9F51081AD73178000F034E /* Images.xcassets */; };
+		9F9F510D1AD73178000F034E /* Quickie Notes WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9F9F510C1AD73178000F034E /* Quickie Notes WatchKit App.app */; };
+		9F9F51151AD73178000F034E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9F51131AD73178000F034E /* Interface.storyboard */; };
+		9F9F51171AD73178000F034E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9F51161AD73178000F034E /* Images.xcassets */; };
 		9FC531FD1A8FF4EA003E0943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC531FC1A8FF4EA003E0943 /* AppDelegate.swift */; };
 		9FC531FF1A8FF4EA003E0943 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC531FE1A8FF4EA003E0943 /* MasterViewController.swift */; };
 		9FC532011A8FF4EA003E0943 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC532001A8FF4EA003E0943 /* DetailViewController.swift */; };
@@ -14,9 +44,20 @@
 		9FC532061A8FF4EA003E0943 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC532051A8FF4EA003E0943 /* Images.xcassets */; };
 		9FC532091A8FF4EA003E0943 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC532071A8FF4EA003E0943 /* LaunchScreen.xib */; };
 		9FC532151A8FF4EA003E0943 /* Quickie_NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC532141A8FF4EA003E0943 /* Quickie_NotesTests.swift */; };
+		9FC5321F1A8FFB79003E0943 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5321E1A8FFB79003E0943 /* Note.swift */; };
+		9FE2EBE31AA23B740076E388 /* Screen Shot 2015-02-28 at 1.06.58 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2EBE21AA23B740076E388 /* Screen Shot 2015-02-28 at 1.06.58 PM.png */; };
+		9FE8A6351ACDE45C000E7927 /* Quickie Notes.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 9FE8A6341ACDE45C000E7927 /* Quickie Notes.ipa */; };
+		9FE8A6371ACDE48B000E7927 /* Quickie Notes.app in Resources */ = {isa = PBXBuildFile; fileRef = 9FE8A6361ACDE48B000E7927 /* Quickie Notes.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9F9F510E1AD73178000F034E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FC531EF1A8FF4EA003E0943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F9F510B1AD73178000F034E;
+			remoteInfo = "Quickie Notes WatchKit App";
+		};
 		9FC5320F1A8FF4EA003E0943 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9FC531EF1A8FF4EA003E0943 /* Project object */;
@@ -27,6 +68,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F0C85E61AD72FB9007F9063 /* QNShareextention.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QNShareextention.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0C85E91AD72FB9007F9063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0C85EA1AD72FB9007F9063 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		9F0C85EC1AD72FB9007F9063 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		9F212F981ADF3F87001642BD /* QNShareextention.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = QNShareextention.entitlements; sourceTree = "<group>"; };
+		9F5BEA091ACCA8E7003C1586 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		9F5BEA0A1ACCA8E7003C1586 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		9F5BEA0B1ACCA8E7003C1586 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		9F5BEA0C1ACCA8E7003C1586 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		9F5BEA0D1ACCA8E7003C1586 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		9F5BEA0E1ACCA8E7003C1586 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9F5BEA0F1ACCA8E7003C1586 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		9F5BEA101ACCA8E7003C1586 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		9F5BEA191ACCA969003C1586 /* storeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storeicon.png; sourceTree = "<group>"; };
+		9F9F50FF1AD73177000F034E /* Quickie Notes WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quickie Notes WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9F51021AD73178000F034E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9F51031AD73178000F034E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		9F9F51041AD73178000F034E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		9F9F51061AD73178000F034E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		9F9F51081AD73178000F034E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F9F510C1AD73178000F034E /* Quickie Notes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quickie Notes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9F51121AD73178000F034E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9F51141AD73178000F034E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9F9F51161AD73178000F034E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9FC531F71A8FF4EA003E0943 /* Quickie Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quickie Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC531FB1A8FF4EA003E0943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC531FC1A8FF4EA003E0943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,9 +103,27 @@
 		9FC5320E1A8FF4EA003E0943 /* Quickie NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quickie NotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC532131A8FF4EA003E0943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC532141A8FF4EA003E0943 /* Quickie_NotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quickie_NotesTests.swift; sourceTree = "<group>"; };
+		9FC5321E1A8FFB79003E0943 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		9FE2EBE21AA23B740076E388 /* Screen Shot 2015-02-28 at 1.06.58 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-02-28 at 1.06.58 PM.png"; sourceTree = "<group>"; };
+		9FE8A6341ACDE45C000E7927 /* Quickie Notes.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quickie Notes.ipa"; sourceTree = "<group>"; };
+		9FE8A6361ACDE48B000E7927 /* Quickie Notes.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "Quickie Notes.app"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9F0C85E31AD72FB9007F9063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9F50FC1AD73177000F034E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9FC531F41A8FF4EA003E0943 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,20 +141,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F0C85E71AD72FB9007F9063 /* QNShareextention */ = {
+			isa = PBXGroup;
+			children = (
+				9F212F981ADF3F87001642BD /* QNShareextention.entitlements */,
+				9F0C85EA1AD72FB9007F9063 /* ShareViewController.swift */,
+				9F0C85EC1AD72FB9007F9063 /* MainInterface.storyboard */,
+				9F0C85E81AD72FB9007F9063 /* Supporting Files */,
+			);
+			path = QNShareextention;
+			sourceTree = "<group>";
+		};
+		9F0C85E81AD72FB9007F9063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C85E91AD72FB9007F9063 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F5BEA071ACCA8E7003C1586 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9F5BEA081ACCA8E7003C1586 /* appicon */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+		9F5BEA081ACCA8E7003C1586 /* appicon */ = {
+			isa = PBXGroup;
+			children = (
+				9F5BEA191ACCA969003C1586 /* storeicon.png */,
+				9F5BEA091ACCA8E7003C1586 /* Icon-60.png */,
+				9F5BEA0A1ACCA8E7003C1586 /* Icon-72.png */,
+				9F5BEA0B1ACCA8E7003C1586 /* Icon-72@2x.png */,
+				9F5BEA0C1ACCA8E7003C1586 /* Icon-Small-50.png */,
+				9F5BEA0D1ACCA8E7003C1586 /* Icon-Small-50@2x.png */,
+				9F5BEA0E1ACCA8E7003C1586 /* Icon.png */,
+				9F5BEA0F1ACCA8E7003C1586 /* Icon@2x.png */,
+				9F5BEA101ACCA8E7003C1586 /* iTunesArtwork@2x.png */,
+			);
+			path = appicon;
+			sourceTree = "<group>";
+		};
+		9F9F51001AD73177000F034E /* Quickie Notes WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F51041AD73178000F034E /* InterfaceController.swift */,
+				9F9F51061AD73178000F034E /* NotificationController.swift */,
+				9F9F51081AD73178000F034E /* Images.xcassets */,
+				9F9F51011AD73178000F034E /* Supporting Files */,
+			);
+			path = "Quickie Notes WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		9F9F51011AD73178000F034E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F51021AD73178000F034E /* Info.plist */,
+				9F9F51031AD73178000F034E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F9F51101AD73178000F034E /* Quickie Notes WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F51131AD73178000F034E /* Interface.storyboard */,
+				9F9F51161AD73178000F034E /* Images.xcassets */,
+				9F9F51111AD73178000F034E /* Supporting Files */,
+			);
+			path = "Quickie Notes WatchKit App";
+			sourceTree = "<group>";
+		};
+		9F9F51111AD73178000F034E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F51121AD73178000F034E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9FC531EE1A8FF4EA003E0943 = {
 			isa = PBXGroup;
 			children = (
+				9FE8A6341ACDE45C000E7927 /* Quickie Notes.ipa */,
+				9FE8A6361ACDE48B000E7927 /* Quickie Notes.app */,
 				9FC531F91A8FF4EA003E0943 /* Quickie Notes */,
 				9FC532111A8FF4EA003E0943 /* Quickie NotesTests */,
+				9F0C85E71AD72FB9007F9063 /* QNShareextention */,
+				9F9F51001AD73177000F034E /* Quickie Notes WatchKit Extension */,
+				9F9F51101AD73178000F034E /* Quickie Notes WatchKit App */,
 				9FC531F81A8FF4EA003E0943 /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		9FC531F81A8FF4EA003E0943 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				9FC531F71A8FF4EA003E0943 /* Quickie Notes.app */,
 				9FC5320E1A8FF4EA003E0943 /* Quickie NotesTests.xctest */,
+				9F0C85E61AD72FB9007F9063 /* QNShareextention.appex */,
+				9F9F50FF1AD73177000F034E /* Quickie Notes WatchKit Extension.appex */,
+				9F9F510C1AD73178000F034E /* Quickie Notes WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +252,9 @@
 		9FC531F91A8FF4EA003E0943 /* Quickie Notes */ = {
 			isa = PBXGroup;
 			children = (
+				9F5BEA071ACCA8E7003C1586 /* images */,
 				9FC531FC1A8FF4EA003E0943 /* AppDelegate.swift */,
+				9FC5321E1A8FFB79003E0943 /* Note.swift */,
 				9FC531FE1A8FF4EA003E0943 /* MasterViewController.swift */,
 				9FC532001A8FF4EA003E0943 /* DetailViewController.swift */,
 				9FC532021A8FF4EA003E0943 /* Main.storyboard */,
@@ -93,6 +268,7 @@
 		9FC531FA1A8FF4EA003E0943 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9FE2EBE21AA23B740076E388 /* Screen Shot 2015-02-28 at 1.06.58 PM.png */,
 				9FC531FB1A8FF4EA003E0943 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -118,6 +294,56 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9F0C85E51AD72FB9007F9063 /* QNShareextention */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0C85F31AD72FB9007F9063 /* Build configuration list for PBXNativeTarget "QNShareextention" */;
+			buildPhases = (
+				9F0C85E21AD72FB9007F9063 /* Sources */,
+				9F0C85E31AD72FB9007F9063 /* Frameworks */,
+				9F0C85E41AD72FB9007F9063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QNShareextention;
+			productName = QNShareextention;
+			productReference = 9F0C85E61AD72FB9007F9063 /* QNShareextention.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9F9F50FE1AD73177000F034E /* Quickie Notes WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9F51201AD73178000F034E /* Build configuration list for PBXNativeTarget "Quickie Notes WatchKit Extension" */;
+			buildPhases = (
+				9F9F50FB1AD73177000F034E /* Sources */,
+				9F9F50FC1AD73177000F034E /* Frameworks */,
+				9F9F50FD1AD73177000F034E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F9F510F1AD73178000F034E /* PBXTargetDependency */,
+			);
+			name = "Quickie Notes WatchKit Extension";
+			productName = "Quickie Notes WatchKit Extension";
+			productReference = 9F9F50FF1AD73177000F034E /* Quickie Notes WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		9F9F510B1AD73178000F034E /* Quickie Notes WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9F511F1AD73178000F034E /* Build configuration list for PBXNativeTarget "Quickie Notes WatchKit App" */;
+			buildPhases = (
+				9F9F510A1AD73178000F034E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quickie Notes WatchKit App";
+			productName = "Quickie Notes WatchKit App";
+			productReference = 9F9F510C1AD73178000F034E /* Quickie Notes WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		9FC531F61A8FF4EA003E0943 /* Quickie Notes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FC532181A8FF4EA003E0943 /* Build configuration list for PBXNativeTarget "Quickie Notes" */;
@@ -162,12 +388,32 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Young;
 				TargetAttributes = {
+					9F0C85E51AD72FB9007F9063 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = WWP4WR39EZ;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					9F9F50FE1AD73177000F034E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = WWP4WR39EZ;
+					};
+					9F9F510B1AD73178000F034E = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					9FC531F61A8FF4EA003E0943 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = WWP4WR39EZ;
 					};
 					9FC5320D1A8FF4EA003E0943 = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 9FC531F61A8FF4EA003E0943;
+					};
+					9FE8A62A1ACDE2EC000E7927 = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
@@ -186,18 +432,60 @@
 			targets = (
 				9FC531F61A8FF4EA003E0943 /* Quickie Notes */,
 				9FC5320D1A8FF4EA003E0943 /* Quickie NotesTests */,
+				9FE8A62A1ACDE2EC000E7927 /* Quickie NotesT */,
+				9F0C85E51AD72FB9007F9063 /* QNShareextention */,
+				9F9F50FE1AD73177000F034E /* Quickie Notes WatchKit Extension */,
+				9F9F510B1AD73178000F034E /* Quickie Notes WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9F0C85E41AD72FB9007F9063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0C85ED1AD72FB9007F9063 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9F50FD1AD73177000F034E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9F51091AD73178000F034E /* Images.xcassets in Resources */,
+				9F9F510D1AD73178000F034E /* Quickie Notes WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9F510A1AD73178000F034E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9F51151AD73178000F034E /* Interface.storyboard in Resources */,
+				9F9F51171AD73178000F034E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9FC531F51A8FF4EA003E0943 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5BEA151ACCA8E7003C1586 /* Icon-Small-50@2x.png in Resources */,
+				9F5BEA131ACCA8E7003C1586 /* Icon-72@2x.png in Resources */,
+				9FE8A6371ACDE48B000E7927 /* Quickie Notes.app in Resources */,
+				9F5BEA161ACCA8E7003C1586 /* Icon.png in Resources */,
+				9F5BEA111ACCA8E7003C1586 /* Icon-60.png in Resources */,
 				9FC532041A8FF4EA003E0943 /* Main.storyboard in Resources */,
+				9F5BEA171ACCA8E7003C1586 /* Icon@2x.png in Resources */,
+				9FE2EBE31AA23B740076E388 /* Screen Shot 2015-02-28 at 1.06.58 PM.png in Resources */,
+				9F5BEA181ACCA8E7003C1586 /* iTunesArtwork@2x.png in Resources */,
+				9FE8A6351ACDE45C000E7927 /* Quickie Notes.ipa in Resources */,
 				9FC532091A8FF4EA003E0943 /* LaunchScreen.xib in Resources */,
+				9F5BEA1A1ACCA969003C1586 /* storeicon.png in Resources */,
+				9F5BEA141ACCA8E7003C1586 /* Icon-Small-50.png in Resources */,
 				9FC532061A8FF4EA003E0943 /* Images.xcassets in Resources */,
+				9F5BEA121ACCA8E7003C1586 /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +499,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9F0C85E21AD72FB9007F9063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0C85EB1AD72FB9007F9063 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9F50FB1AD73177000F034E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9F51071AD73178000F034E /* NotificationController.swift in Sources */,
+				9F9F51051AD73178000F034E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9FC531F31A8FF4EA003E0943 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,6 +523,7 @@
 				9FC532011A8FF4EA003E0943 /* DetailViewController.swift in Sources */,
 				9FC531FF1A8FF4EA003E0943 /* MasterViewController.swift in Sources */,
 				9FC531FD1A8FF4EA003E0943 /* AppDelegate.swift in Sources */,
+				9FC5321F1A8FFB79003E0943 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +538,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9F9F510F1AD73178000F034E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F9F510B1AD73178000F034E /* Quickie Notes WatchKit App */;
+			targetProxy = 9F9F510E1AD73178000F034E /* PBXContainerItemProxy */;
+		};
 		9FC532101A8FF4EA003E0943 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9FC531F61A8FF4EA003E0943 /* Quickie Notes */;
@@ -240,6 +551,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9F9F51131AD73178000F034E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9F51141AD73178000F034E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		9FC532021A8FF4EA003E0943 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,6 +578,103 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9F0C85F11AD72FB9007F9063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QNShareextention/QNShareextention.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QNShareextention/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9F0C85F21AD72FB9007F9063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QNShareextention/QNShareextention.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = QNShareextention/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9F9F511B1AD73178000F034E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quickie Notes WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9F9F511C1AD73178000F034E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "Quickie Notes WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9F9F511D1AD73178000F034E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Quickie_Notes_WatchKit_Extension;
+				INFOPLIST_FILE = "Quickie Notes WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		9F9F511E1AD73178000F034E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = Quickie_Notes_WatchKit_Extension;
+				INFOPLIST_FILE = "Quickie Notes WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		9FC532161A8FF4EA003E0943 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -340,9 +756,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Quickie Notes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -350,9 +771,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Quickie Notes/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -390,9 +816,50 @@
 			};
 			name = Release;
 		};
+		9FE8A62B1ACDE2EC000E7927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FE8A62C1ACDE2EC000E7927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9F0C85F31AD72FB9007F9063 /* Build configuration list for PBXNativeTarget "QNShareextention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0C85F11AD72FB9007F9063 /* Debug */,
+				9F0C85F21AD72FB9007F9063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9F511F1AD73178000F034E /* Build configuration list for PBXNativeTarget "Quickie Notes WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9F511D1AD73178000F034E /* Debug */,
+				9F9F511E1AD73178000F034E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9F51201AD73178000F034E /* Build configuration list for PBXNativeTarget "Quickie Notes WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9F511B1AD73178000F034E /* Debug */,
+				9F9F511C1AD73178000F034E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9FC531F21A8FF4EA003E0943 /* Build configuration list for PBXProject "Quickie Notes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -409,6 +876,7 @@
 				9FC5321A1A8FF4EA003E0943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FC5321B1A8FF4EA003E0943 /* Build configuration list for PBXNativeTarget "Quickie NotesTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +885,16 @@
 				9FC5321D1A8FF4EA003E0943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE8A62D1ACDE2EC000E7927 /* Build configuration list for PBXAggregateTarget "Quickie NotesT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE8A62B1ACDE2EC000E7927 /* Debug */,
+				9FE8A62C1ACDE2EC000E7927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

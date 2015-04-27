@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9FE8A62E1ACDE316000E7927 /* QNFIPT */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9FE8A6311ACDE316000E7927 /* Build configuration list for PBXAggregateTarget "QNFIPT" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = QNFIPT;
+			productName = QNFIPT;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9FABC5581AB0DB1200C53DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABC5571AB0DB1200C53DA5 /* AppDelegate.swift */; };
+		9FABC55A1AB0DB1200C53DA5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABC5591AB0DB1200C53DA5 /* MasterViewController.swift */; };
+		9FABC55C1AB0DB1200C53DA5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABC55B1AB0DB1200C53DA5 /* DetailViewController.swift */; };
+		9FABC55F1AB0DB1200C53DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FABC55D1AB0DB1200C53DA5 /* Main.storyboard */; };
+		9FABC5611AB0DB1200C53DA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FABC5601AB0DB1200C53DA5 /* Images.xcassets */; };
+		9FABC5641AB0DB1200C53DA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FABC5621AB0DB1200C53DA5 /* LaunchScreen.xib */; };
+		9FABC5701AB0DB1300C53DA5 /* Quickie_Notes_For_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABC56F1AB0DB1300C53DA5 /* Quickie_Notes_For_iPadTests.swift */; };
+		9FABC57A1AB0DB3400C53DA5 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FABC5791AB0DB3400C53DA5 /* Note.swift */; };
+		9FABC57C1AB0DBA800C53DA5 /* Screen Shot 2015-02-28 at 1.06.58 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FABC57B1AB0DBA800C53DA5 /* Screen Shot 2015-02-28 at 1.06.58 PM.png */; };
+		9FE8A6391ACDE4C1000E7927 /* Quickie Notes For iPad.app in Resources */ = {isa = PBXBuildFile; fileRef = 9FE8A6381ACDE4C1000E7927 /* Quickie Notes For iPad.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FABC56A1AB0DB1300C53DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FABC54A1AB0DB1200C53DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FABC5511AB0DB1200C53DA5;
+			remoteInfo = "Quickie Notes For iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FABC5521AB0DB1200C53DA5 /* Quickie Notes For iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quickie Notes For iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FABC5561AB0DB1200C53DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FABC5571AB0DB1200C53DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FABC5591AB0DB1200C53DA5 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9FABC55B1AB0DB1200C53DA5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9FABC55E1AB0DB1200C53DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FABC5601AB0DB1200C53DA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9FABC5631AB0DB1200C53DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9FABC5691AB0DB1300C53DA5 /* Quickie Notes For iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quickie Notes For iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FABC56E1AB0DB1300C53DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FABC56F1AB0DB1300C53DA5 /* Quickie_Notes_For_iPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quickie_Notes_For_iPadTests.swift; sourceTree = "<group>"; };
+		9FABC5791AB0DB3400C53DA5 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		9FABC57B1AB0DBA800C53DA5 /* Screen Shot 2015-02-28 at 1.06.58 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-02-28 at 1.06.58 PM.png"; sourceTree = "<group>"; };
+		9FE8A6381ACDE4C1000E7927 /* Quickie Notes For iPad.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "Quickie Notes For iPad.app"; sourceTree = "<group>"; };
+		9FE8A63A1ACDE4C7000E7927 /* Quickie Notes For iPad 1.0.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quickie Notes For iPad 1.0.ipa"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FABC54F1AB0DB1200C53DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FABC5661AB0DB1300C53DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FABC5491AB0DB1200C53DA5 = {
+			isa = PBXGroup;
+			children = (
+				9FE8A63A1ACDE4C7000E7927 /* Quickie Notes For iPad 1.0.ipa */,
+				9FE8A6381ACDE4C1000E7927 /* Quickie Notes For iPad.app */,
+				9FABC5541AB0DB1200C53DA5 /* Quickie Notes For iPad */,
+				9FABC56C1AB0DB1300C53DA5 /* Quickie Notes For iPadTests */,
+				9FABC5531AB0DB1200C53DA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FABC5531AB0DB1200C53DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FABC5521AB0DB1200C53DA5 /* Quickie Notes For iPad.app */,
+				9FABC5691AB0DB1300C53DA5 /* Quickie Notes For iPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FABC5541AB0DB1200C53DA5 /* Quickie Notes For iPad */ = {
+			isa = PBXGroup;
+			children = (
+				9FABC5791AB0DB3400C53DA5 /* Note.swift */,
+				9FABC5571AB0DB1200C53DA5 /* AppDelegate.swift */,
+				9FABC5591AB0DB1200C53DA5 /* MasterViewController.swift */,
+				9FABC55B1AB0DB1200C53DA5 /* DetailViewController.swift */,
+				9FABC55D1AB0DB1200C53DA5 /* Main.storyboard */,
+				9FABC5601AB0DB1200C53DA5 /* Images.xcassets */,
+				9FABC5621AB0DB1200C53DA5 /* LaunchScreen.xib */,
+				9FABC57B1AB0DBA800C53DA5 /* Screen Shot 2015-02-28 at 1.06.58 PM.png */,
+				9FABC5551AB0DB1200C53DA5 /* Supporting Files */,
+			);
+			path = "Quickie Notes For iPad";
+			sourceTree = "<group>";
+		};
+		9FABC5551AB0DB1200C53DA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FABC5561AB0DB1200C53DA5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FABC56C1AB0DB1300C53DA5 /* Quickie Notes For iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FABC56F1AB0DB1300C53DA5 /* Quickie_Notes_For_iPadTests.swift */,
+				9FABC56D1AB0DB1300C53DA5 /* Supporting Files */,
+			);
+			path = "Quickie Notes For iPadTests";
+			sourceTree = "<group>";
+		};
+		9FABC56D1AB0DB1300C53DA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FABC56E1AB0DB1300C53DA5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FABC5511AB0DB1200C53DA5 /* Quickie Notes For iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FABC5731AB0DB1300C53DA5 /* Build configuration list for PBXNativeTarget "Quickie Notes For iPad" */;
+			buildPhases = (
+				9FABC54E1AB0DB1200C53DA5 /* Sources */,
+				9FABC54F1AB0DB1200C53DA5 /* Frameworks */,
+				9FABC5501AB0DB1200C53DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quickie Notes For iPad";
+			productName = "Quickie Notes For iPad";
+			productReference = 9FABC5521AB0DB1200C53DA5 /* Quickie Notes For iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FABC5681AB0DB1300C53DA5 /* Quickie Notes For iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FABC5761AB0DB1300C53DA5 /* Build configuration list for PBXNativeTarget "Quickie Notes For iPadTests" */;
+			buildPhases = (
+				9FABC5651AB0DB1300C53DA5 /* Sources */,
+				9FABC5661AB0DB1300C53DA5 /* Frameworks */,
+				9FABC5671AB0DB1300C53DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FABC56B1AB0DB1300C53DA5 /* PBXTargetDependency */,
+			);
+			name = "Quickie Notes For iPadTests";
+			productName = "Quickie Notes For iPadTests";
+			productReference = 9FABC5691AB0DB1300C53DA5 /* Quickie Notes For iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FABC54A1AB0DB1200C53DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Young;
+				TargetAttributes = {
+					9FABC5511AB0DB1200C53DA5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = WWP4WR39EZ;
+					};
+					9FABC5681AB0DB1300C53DA5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9FABC5511AB0DB1200C53DA5;
+					};
+					9FE8A62E1ACDE316000E7927 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 9FABC54D1AB0DB1200C53DA5 /* Build configuration list for PBXProject "Quickie Notes For iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FABC5491AB0DB1200C53DA5;
+			productRefGroup = 9FABC5531AB0DB1200C53DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FABC5511AB0DB1200C53DA5 /* Quickie Notes For iPad */,
+				9FABC5681AB0DB1300C53DA5 /* Quickie Notes For iPadTests */,
+				9FE8A62E1ACDE316000E7927 /* QNFIPT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FABC5501AB0DB1200C53DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FABC55F1AB0DB1200C53DA5 /* Main.storyboard in Resources */,
+				9FABC57C1AB0DBA800C53DA5 /* Screen Shot 2015-02-28 at 1.06.58 PM.png in Resources */,
+				9FE8A6391ACDE4C1000E7927 /* Quickie Notes For iPad.app in Resources */,
+				9FABC5641AB0DB1200C53DA5 /* LaunchScreen.xib in Resources */,
+				9FABC5611AB0DB1200C53DA5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FABC5671AB0DB1300C53DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FABC54E1AB0DB1200C53DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FABC55C1AB0DB1200C53DA5 /* DetailViewController.swift in Sources */,
+				9FABC55A1AB0DB1200C53DA5 /* MasterViewController.swift in Sources */,
+				9FABC5581AB0DB1200C53DA5 /* AppDelegate.swift in Sources */,
+				9FABC57A1AB0DB3400C53DA5 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FABC5651AB0DB1300C53DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FABC5701AB0DB1300C53DA5 /* Quickie_Notes_For_iPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FABC56B1AB0DB1300C53DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FABC5511AB0DB1200C53DA5 /* Quickie Notes For iPad */;
+			targetProxy = 9FABC56A1AB0DB1300C53DA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FABC55D1AB0DB1200C53DA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FABC55E1AB0DB1200C53DA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FABC5621AB0DB1200C53DA5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FABC5631AB0DB1200C53DA5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FABC5711AB0DB1300C53DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9FABC5721AB0DB1300C53DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FABC5741AB0DB1300C53DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Quickie Notes For iPad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FABC5751AB0DB1300C53DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Quickie Notes For iPad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FABC5771AB0DB1300C53DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quickie Notes For iPadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quickie Notes For iPad.app/Quickie Notes For iPad";
+			};
+			name = Debug;
+		};
+		9FABC5781AB0DB1300C53DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quickie Notes For iPadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quickie Notes For iPad.app/Quickie Notes For iPad";
+			};
+			name = Release;
+		};
+		9FE8A62F1ACDE316000E7927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FE8A6301ACDE316000E7927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FABC54D1AB0DB1200C53DA5 /* Build configuration list for PBXProject "Quickie Notes For iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FABC5711AB0DB1300C53DA5 /* Debug */,
+				9FABC5721AB0DB1300C53DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FABC5731AB0DB1300C53DA5 /* Build configuration list for PBXNativeTarget "Quickie Notes For iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FABC5741AB0DB1300C53DA5 /* Debug */,
+				9FABC5751AB0DB1300C53DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FABC5761AB0DB1300C53DA5 /* Build configuration list for PBXNativeTarget "Quickie Notes For iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FABC5771AB0DB1300C53DA5 /* Debug */,
+				9FABC5781AB0DB1300C53DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE8A6311ACDE316000E7927 /* Build configuration list for PBXAggregateTarget "QNFIPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE8A62F1ACDE316000E7927 /* Debug */,
+				9FE8A6301ACDE316000E7927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FABC54A1AB0DB1200C53DA5 /* Project object */;
+}
